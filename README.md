@@ -4,7 +4,7 @@ This module contains usage of ARM Template in Microsoft Azure. One can deploy mu
 
 # Example code
 
-
+```sh
 module "arm_template" {
   source = "https://github.com/BartoszDopke/terraform-azurerm_resource_group_template_deployment"
 
@@ -41,3 +41,4 @@ module "arm_template" {
 
   tags = var.tags
 }
+```
